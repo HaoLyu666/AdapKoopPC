@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "AdapKoopPC"
+authors:
+  - family-names: Lyu
+    given-names: Hao
+  - family-names: Guo
+    given-names: Yanyong
+  - family-names: Liu
+    given-names: Pan
+  - family-names: Zheng
+    given-names: Nan
+  - family-names: Wang
+    given-names: Ting
+  - family-names: Yue
+    given-names: Quansheng
+preferred-citation:
+  type: article
+  title: "Mitigating traffic oscillations in mixed traffic flow with scalable deep Koopman predictive control"
+  authors:
+    - family-names: Lyu
+      given-names: Hao
+    - family-names: Guo
+      given-names: Yanyong
+    - family-names: Liu
+      given-names: Pan
+    - family-names: Zheng
+      given-names: Nan
+    - family-names: Wang
+      given-names: Ting
+    - family-names: Yue
+      given-names: Quansheng
+  journal: "Advanced Engineering Informatics"
+  volume: "71"
+  start: "104258"
+  year: 2026
+  doi: "10.1016/j.aei.2025.104258"

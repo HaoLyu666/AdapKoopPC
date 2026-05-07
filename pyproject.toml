@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adapkoop-pc"
+version = "0.1.0"
+description = "Adaptive deep Koopman predictive control for mixed traffic flow simulation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Hao Lyu" },
+  { name = "Yanyong Guo" },
+  { name = "Pan Liu" },
+  { name = "Nan Zheng" },
+  { name = "Ting Wang" },
+  { name = "Quansheng Yue" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "torch>=2.0"
+]
+
+[project.urls]
+Paper = "https://doi.org/10.1016/j.aei.2025.104258"
+
+[project.scripts]
+adapkoop-pc = "adapkoop_pc.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["adapkoop_pc*"]

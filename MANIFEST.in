@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include CITATION.cff
+recursive-include checkpoints *.tar
+recursive-include docs *.md *.png
